@@ -1,7 +1,13 @@
 {
     "@@locale": "en",
-    "counterAppBarTitle": "Counter",
-    "@counterAppBarTitle": {
-        "description": "Text shown in the AppBar of the Counter Page"
+    "commonYes": "Yes",
+    "commonNo": "No",
+    "siteDetailsTileHasCredentialsQuestionMark": "Has credentials?",
+    "@siteDetailsTileHasCredentialsQuestionMark": {
+        "description": "Label for the Has Credentials? field in the Site Detail Tile"
+    },
+    "siteListAppBarTitle": "Sites",
+    "@siteListAppBarTitle": {
+        "description": "Text shown in the AppBar of the Site List Page"
     }
 }
