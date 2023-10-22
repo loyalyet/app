@@ -17,7 +17,7 @@ class SiteListWidget extends StatelessWidget {
       itemBuilder: (context, index) {
         final site = sites[index];
         return ListTile(
-          onTap: () => context.pushSiteDetails(site.siteId),
+          onTap: () => context.goSiteDetails(site.siteId),
           title: Text(site.name),
         );
       },

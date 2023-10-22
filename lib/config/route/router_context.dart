@@ -6,6 +6,7 @@ import 'package:loyalyet_app/modules/site/site.dart';
 extension RouteContext on BuildContext {
   GoRouter get _router => GoRouter.of(this);
 
-  void pushSiteDetails(SiteId siteId) =>
-      _router.push(routeSiteDetails.replaceAll(':siteId', siteId.name));
+  void goSiteDetails(SiteId siteId) => _router.go(
+        '$routeSiteList/$routeSiteDetails'.replaceAll(':siteId', siteId.name),
+      );
 }

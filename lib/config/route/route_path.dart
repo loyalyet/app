@@ -1,2 +1,2 @@
-const routeSiteList = '/';
-const routeSiteDetails = '/sites/:siteId';
+const routeSiteList = '/sites';
+const routeSiteDetails = ':siteId/details';
